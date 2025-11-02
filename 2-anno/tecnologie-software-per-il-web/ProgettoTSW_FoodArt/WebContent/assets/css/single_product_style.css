@@ -1,0 +1,208 @@
+.small-img-group{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.col-lg-6.btn{
+	background-color: #fcba03!important;
+	color: black!important;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.col-lg-6.btn:hover{
+	color: white!important;
+	border: 1px solid #fcba03!important;
+}
+.sproduct select{
+    display:block;
+    padding: 5px 10px;
+    border-radius: 0.2rem;
+}
+.sproduct .rating{
+    color: #fcba03;
+}
+select option{
+    border-radius: 0.2rem;
+    border-color: #fcba03!important;
+}
+h3{
+    margin-bottom: 0rem!important;
+}
+h6{
+    margin-top: 3px!important;
+}
+h6 a{
+    color: #fcba03!important;
+}
+hr{
+    margin-top: 0.25rem!important;
+}
+select:focus{
+    outline: none;
+}
+#testimonials{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: columns;
+}
+.testimonials-box-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.testimonial-box{
+    min-width: 98%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+}
+.profile-img, .profile-img-add{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img-add{
+	text-align: center;
+	background-color: #8c8c8c;
+    border: 0;
+	cursor: pointer; 
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile-img-add svg{
+	width: 1.5rem!important;
+    height: 1.5rem;
+    color: #000;
+    position:relative;
+    top: calc(50% - 13px);
+}
+.comment_btn {
+    color: #000;
+    background-color: rgb(255, 195, 18);
+    width: 100px;
+}
+.comment_btn:hover {
+	color: #fff;
+}
+.input-group>.form-control:not(:first-child) {
+    border-top-left-radius: 0.2rem!important;
+    border-bottom-left-radius: 0.2rem!important;
+}
+.form-control:focus {
+    border-color: #000;
+}
+.input-group h3{
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+input[type="file"] {
+    display: none;
+}
+.form-group input[type="submit"] {
+    margin-top: 0.5rem;
+}
+.profile{
+    display:flex;
+}
+.name-user span{
+    color: #696969;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.comment-group{
+    display:flex;
+    flex-direction: column;
+}
+.comment-input{
+	width: 100%!important;
+}
+.comment-group strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin-left: 0.5rem;
+}
+.box-top{
+    display:flex;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+    margin-bottom: 0!important;
+}
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle{
+	outline: none!important;
+}
+.dropdown-item.active, .dropdown-item:active{
+	color: #000;
+  text-decoration: none;
+  background-color: #fcba03;
+}
+@media (min-width: 768px){
+	.col-md-12 {
+		-ms-flex: 0 0 41.666667%;
+	    flex: 0 0 41.666667%;
+	    max-width: 41.666667%;
+	}
+}
+#textarea-comment{
+    resize: none;
+}
+.row{
+	margin: 0;
+ 	justify-content: center;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 12rem;
+}
+#addCart{
+	width: 12rem;
+}
+#footer{
+	margin-top: 10%;
+}
+.input-group input:focus {
+    outline: 0;
+}
+.form-control.success {
+    border-color: #09c372;
+}
+
+.form-control.error{
+    border-color: rgb(216, 0, 0);
+}
+
+.form-control + .div-error>.error {
+    color: rgb(216, 0, 0);
+    font-size: 11px;
+    height: 13px;
+}
+
+.div-error{
+		justify-content: space-around;
+}
+
+.div-error > .error {
+    color: rgb(216, 0, 0);
+    font-size: 11px;
+    height: 13px;
+}
+@media (max-width: 768px){
+	.row {
+    text-align: center!important;
+	}
+}
