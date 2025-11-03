@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://ricambi/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ricambi/">
+
+<xs:element name="aggiornaRicambioAuto" type="tns:aggiornaRicambioAuto"/>
+
+<xs:element name="aggiornaRicambioAutoResponse" type="tns:aggiornaRicambioAutoResponse"/>
+
+<xs:element name="aggiungiRicambioAuto" type="tns:aggiungiRicambioAuto"/>
+
+<xs:element name="aggiungiRicambioAutoResponse" type="tns:aggiungiRicambioAutoResponse"/>
+
+<xs:element name="cercaPerCategoria" type="tns:cercaPerCategoria"/>
+
+<xs:element name="cercaPerCategoriaResponse" type="tns:cercaPerCategoriaResponse"/>
+
+<xs:element name="cercaPerId" type="tns:cercaPerId"/>
+
+<xs:element name="cercaPerIdResponse" type="tns:cercaPerIdResponse"/>
+
+<xs:element name="cercaTuttiRicambioAuto" type="tns:cercaTuttiRicambioAuto"/>
+
+<xs:element name="cercaTuttiRicambioAutoResponse" type="tns:cercaTuttiRicambioAutoResponse"/>
+
+<xs:element name="rimuoviRicambioAuto" type="tns:rimuoviRicambioAuto"/>
+
+<xs:element name="rimuoviRicambioAutoResponse" type="tns:rimuoviRicambioAutoResponse"/>
+
+<xs:complexType name="cercaPerCategoria">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cercaPerCategoriaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAutoEntity" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ricambioAutoEntity">
+<xs:sequence>
+<xs:element name="categoria" type="xs:string" minOccurs="0"/>
+<xs:element name="disponibilita" type="xs:int"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="nome" type="xs:string" minOccurs="0"/>
+<xs:element name="pezziVenduti" type="xs:int"/>
+<xs:element name="prezzo" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="rimuoviRicambioAuto">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAutoEntity" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="rimuoviRicambioAutoResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="aggiornaRicambioAuto">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAutoEntity" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiornaRicambioAutoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAutoEntity" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cercaPerId">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cercaPerIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAutoEntity" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cercaTuttiRicambioAuto">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="cercaTuttiRicambioAutoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAutoEntity" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiungiRicambioAuto">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAutoEntity" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiungiRicambioAutoResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>

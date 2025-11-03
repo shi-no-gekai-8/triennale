@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://fornitore/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://fornitore/">
+
+<xs:element name="aggiornaFornitore" type="tns:aggiornaFornitore"/>
+
+<xs:element name="aggiornaFornitoreResponse" type="tns:aggiornaFornitoreResponse"/>
+
+<xs:element name="aggiungiFornitore" type="tns:aggiungiFornitore"/>
+
+<xs:element name="aggiungiFornitoreResponse" type="tns:aggiungiFornitoreResponse"/>
+
+<xs:element name="eliminaFornitore" type="tns:eliminaFornitore"/>
+
+<xs:element name="eliminaFornitoreResponse" type="tns:eliminaFornitoreResponse"/>
+
+<xs:element name="fornitore" type="tns:fornitore"/>
+
+<xs:element name="trovaFornitorePerCognome" type="tns:trovaFornitorePerCognome"/>
+
+<xs:element name="trovaFornitorePerCognomeResponse" type="tns:trovaFornitorePerCognomeResponse"/>
+
+<xs:element name="trovaFornitorePerId" type="tns:trovaFornitorePerId"/>
+
+<xs:element name="trovaFornitorePerIdResponse" type="tns:trovaFornitorePerIdResponse"/>
+
+<xs:element name="trovaFornitoriPerMaxordine" type="tns:trovaFornitoriPerMaxordine"/>
+
+<xs:element name="trovaFornitoriPerMaxordineResponse" type="tns:trovaFornitoriPerMaxordineResponse"/>
+
+<xs:element name="trovaTuttiFornitori" type="tns:trovaTuttiFornitori"/>
+
+<xs:element name="trovaTuttiFornitoriResponse" type="tns:trovaTuttiFornitoriResponse"/>
+
+<xs:complexType name="trovaFornitorePerId">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaFornitorePerIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fornitore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fornitore">
+<xs:sequence>
+<xs:element name="cognome" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:string" minOccurs="0"/>
+<xs:element name="maxOrdine" type="xs:int"/>
+<xs:element name="nome" type="xs:string" minOccurs="0"/>
+<xs:element name="nomeSoc" type="xs:string" minOccurs="0"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+<xs:element name="valoreTotaleOrdini" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaTuttiFornitori">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaTuttiFornitoriResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fornitore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiungiFornitore">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fornitore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiungiFornitoreResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaFornitorePerCognome">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaFornitorePerCognomeResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fornitore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaFornitore">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fornitore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaFornitoreResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="aggiornaFornitore">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fornitore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiornaFornitoreResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fornitore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaFornitoriPerMaxordine">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaFornitoriPerMaxordineResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fornitore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
