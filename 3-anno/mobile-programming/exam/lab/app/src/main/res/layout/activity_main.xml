@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/insert_word" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultText" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="@string/resultPlaceholder"
+            android:paddingEnd="20dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memoryText" />
+
+            <TextView
+                android:id="@+id/memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:hint="@string/memoryPlaceholder"
+                android:paddingEnd="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/contaCaratteri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firstButton"
+                android:background="@color/backgroundButtons"/>
+
+            <Button
+                android:id="@+id/invertiOrdine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtons"
+                android:text="@string/secondButton"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:id="@+id/troncaDestra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtons"
+                android:text="@string/thirdButton"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <Button
+            android:id="@+id/troncaSinistra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundButtons"
+            android:text="@string/fourthButton"/>
+        <Button
+            android:id="@+id/raddoppia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundButtons"
+            android:text="@string/fifthButton"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/memorizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundButtons"
+            android:text="@string/sixthButton"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/concat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtons"
+                android:text="@string/seventhButton"/>
+            <Button
+                android:id="@+id/clearEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtons"
+                android:text="@string/eighthButton"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:id="@+id/clearResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtons"
+                android:text="@string/ninethButton"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

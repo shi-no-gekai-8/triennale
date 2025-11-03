@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZappiaAlfonso</string>
+    <string name="insert_word">Inserisci la parola</string>
+    <string name="resultText">Risultato: </string>
+    <string name="resultPlaceholder">Verrà visualizzato il risultato</string>
+    <string name="memoryText">Memoria: </string>
+    <string name="memoryPlaceholder">Verrà visualizzata la memoria</string>
+    <string name="firstButton">CC</string>
+    <string name="secondButton">IO</string>
+    <string name="thirdButton">TD</string>
+    <string name="fourthButton">TS</string>
+    <string name="fifthButton">R</string>
+    <string name="sixthButton">M</string>
+    <string name="seventhButton">C</string>
+    <string name="eighthButton">CE</string>
+    <string name="ninethButton">CM</string>
+</resources>
