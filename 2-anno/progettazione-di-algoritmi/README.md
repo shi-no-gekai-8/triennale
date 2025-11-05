@@ -2,7 +2,7 @@
 
 ## ⚠️⚠️ AGGIORNAMENTO 2025
 
-La prof. De Bonis, purtroppo, è venuta a mancare quest'anno (pace all'anima sua 🙏🏽). Per il 2025, sono stati nominati due docenti ad interim e non si sa ancora chi prenderà il corso per l'anno 2025/2026. Comunque, per il 2025, è stato usato dell'altro materiale e sono cambiate completamente le modalità, invalidando, di fatto, questi appunti. Usateli solo come approfondimento, se volete.
+La prof. De Bonis, purtroppo, è venuta a mancare quest'anno (pace all'anima sua 🙏🏽). Per il 2025, sono stati nominati due docenti ad interim, il prof. Cordasco e la prof. Pellegrini, e non si sa ancora chi prenderà il corso per l'anno 2025/2026. Comunque, per il 2025, è stato usato dell'altro materiale e sono cambiate completamente le modalità, invalidando, di fatto, questi appunti. Usateli solo come approfondimento, se volete.
 
 ## Dati Personali Esame
 
