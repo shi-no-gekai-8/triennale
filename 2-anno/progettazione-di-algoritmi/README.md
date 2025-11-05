@@ -7,7 +7,7 @@ La prof. De Bonis, purtroppo, è venuta a mancare quest'anno (pace all'anima sua
 ## Dati Personali Esame
 
 - `Professoressa` - Annalisa de Bonis
-- `Date Esame` - 03/02/2025
+- `Data Esame` - 03/02/2025
 - `Voto` - 20/30
 
 ## Contenuto
