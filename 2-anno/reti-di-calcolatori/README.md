@@ -12,7 +12,7 @@ I prof. Esposito e Palmieri non detengono più la cattedra in simultanea della c
 
 ## Contenuto
 
-- 📄 `oral-papers` – alcune delle domande all'orale
+- 📄 `oral-questions` – alcune delle domande all'orale
 - 📄 `quiz-questions` - le domande presenti al quiz valevole come scritto
 - 📄 `rc-bible` - parte della Bibbia dell'esame stilata da me
 
