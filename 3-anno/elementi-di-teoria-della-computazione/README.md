@@ -7,7 +7,7 @@ La prof. Gargano e il prof. De Marco detengono ancora la cattedra del corso e no
 ## Dati Personali Esame
 
 - `Professori` - Luisa Gargano & Gianluca de Marco
-- `Date Esame` - 19/07/2023
+- `Data Esame` - 19/07/2023
 - `Voto` - 26/30
 
 ## Contenuto
